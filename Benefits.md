@@ -12,13 +12,4 @@ There are many more, but this three are already such a big win on any project th
 * ### Tests are good documentation.
 * ### Tests make developers more confident about their work.
 > You can say that all their benefits come at a great cost: TIME, but this is completely false. All the time that using unit testing may cost you is going to be small compared to the time they are going to save you later when you are introducing new features or making any refactors. The time spent resolving bugs is going to be drastically smaller than if you are not using unit testing.
-Let’s have some fun… we are going to create a small but quite complete example of an application using Angular, Jasmine and Karma.
 
-These are some of the things that we are going to talk about:
-
-* Explain a little bit the tools karma and jasmine.
-* Explain the karma configuration.
-* Explain the test entry file.
-* Create a first simple test. Introducing jasmine and angular testing features.
-* Test an angular form. Introducing jasmine and angular testing features.
-* Test a component with services. Introducing angular testing features.
