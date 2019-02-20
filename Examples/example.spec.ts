@@ -18,7 +18,7 @@ describe('Component: () => {
     class MockRouter {
         navigate = jasmine.createSpy('navigate');
     }
-
+//beforeEach
     beforeEach(() => {
         // refine the test module by declaring the test component
         TestBed.configureTestingModule({
