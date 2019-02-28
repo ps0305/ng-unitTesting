@@ -39,7 +39,8 @@ describe('Component: () => {
     });
 
     it('Should call MethodOne - someService ==> resolved', () => {
-        spyOn(someService, 'someMethod').and.returnValue(Observable.of({ }));
+        let MockedData = {};
+        spyOn(someService, 'someMethod').and.returnValue(Observable.of(MockedData));
         component.MethodOne();
         expect(someService.someMethod).toHaveBeenCalled();
     });
