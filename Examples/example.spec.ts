@@ -52,7 +52,7 @@ describe('Component: () => {
     });
 
     it('Should call MethodOne - someService ==> resolved with error code', () => {
-        spyOn(someService, 'someMethod').and.returnValue(Observable.throw({ 'code': '' } ));
+        spyOn(someService, 'someMethod').and.returnValue(Observable.throw({ 'code': ' ' } ));
         component.MethodOne();
         expect(someService.someMethod).toHaveBeenCalled();
     });
