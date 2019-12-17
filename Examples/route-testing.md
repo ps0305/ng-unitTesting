@@ -30,6 +30,7 @@ let mockRouter = {
    imports: [RouterTestingModule.withRoutes([
         { path: 'desired-path', component: targetComponent },
         { path: '', component: targetComponent }
+        ]
     }
   
  
